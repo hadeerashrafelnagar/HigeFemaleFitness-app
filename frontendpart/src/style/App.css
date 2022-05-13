@@ -1,0 +1,70 @@
+
+.swal2-styled.swal2-confirm{
+  background-color: #35858B !important;
+  border-color: #35858B !important;
+ }
+
+
+:root {
+  --fColor: #072227;
+  --sColor: #35858B;
+  --tColor: #4FBDBA;
+  --foColor: #AEFEFF;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+}
+
+ul {
+  list-style: none
+}
+
+.slick-prev {
+  left: -3%;
+}
+
+.slick-next {
+  left: 100%;
+}
+
+.slick-prev, .slick-next {
+  background-color: white !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #35858B !important;
+
+}
+.slick-prev, .slick-next {
+  background-color: white !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #35858B !important;
+}
+.message {
+  background-color: transparent !important;
+}
+#btn2 {
+    color: white;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+#btn2:hover{
+  background-color:#AEFEFF ;
+  color:#072227;
+}
+.mb-5 #btn2{
+  margin-bottom: 2.5em;
+}
+.lis{
+  margin: 0 auto !important;
+}

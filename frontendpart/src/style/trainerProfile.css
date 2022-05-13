@@ -1,0 +1,142 @@
+
+  .padding{
+    background-color: #f9f9fa;
+
+  }
+  #Trainer_Profile #btnn1{
+    color: white;
+    background-color: #072227;
+    margin-left: 1%;
+} 
+
+
+#Trainer_Profile #btnn1:hover{
+    color: white;
+    background-color: #35858B;
+   
+}  
+
+#Trainer_Profile #btnn2{
+    color: white;
+    background-color: #072227;
+    margin-left: 1%;
+} 
+
+
+#Trainer_Profile #btnn2:hover{
+    color: white;
+    background-color: #35858B;
+   
+} 
+
+#Trainer_Profile #btnn3{
+    color: white;
+    background-color: #072227;
+    margin-left: 1%;
+} 
+
+
+#Trainer_Profile #btnn3:hover{
+    color: white;
+    background-color: #35858B;
+   
+} 
+
+#Trainer_Profile #btnn4{
+    color: white;
+    background-color: #072227;
+    margin-left: 1%;
+} 
+
+
+#Trainer_Profile #btnn4:hover{
+    color: white;
+    background-color: #35858B;
+   
+} 
+
+#Trainer_Profile #btnn5{
+    color: white;
+    background-color: #072227;
+
+} 
+
+
+#Trainer_Profile #btnn5:hover{
+    color: white;
+    background-color: #35858B;
+   
+} 
+
+    
+
+#Trainer_Profile .main-body {
+    padding: 15px;
+}
+
+#Trainer_Profile .card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+
+#Trainer_Profile .card {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 7px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+    
+}
+
+#Trainer_Profile  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+  
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+    min-height: 100vh;
+    height: fit-content;
+    
+}
+.h-100 {
+    min-height: 100vh!important;
+    height: fit-content!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+.bck{
+    background-color: #35858B;
+    height: 5vh;
+    padding-top: 0.5%;
+}
+#linee{
+    height: 2px;
+    margin: auto;
+    background-color: #072227;
+}
+
+#uname{
+    color: #072227;
+}

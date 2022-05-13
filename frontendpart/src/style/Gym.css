@@ -1,0 +1,148 @@
+.vplayer {
+    width: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.inner {
+    display: table;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    text-shadow: 0 1px 5px white(0, 0, 0, .5);
+    transform: translateY(170%);
+}
+
+.inner>div {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner .btn-info {
+    color: white;
+}
+
+
+#video-viewport {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#gymbg {
+    position: relative;
+    background-size: contain;
+    margin-top: 3.5em;
+}
+
+.ma {
+    margin-bottom: 1.5em;
+}
+
+.gymIntro {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/assets/images/photo-1571731956672-f2b94d7dd0cb.jpeg");
+    width: 100%;
+    border: 1px solid var(--fColor);
+    background-position: top;
+    height: 35em;
+}
+
+#quotegym {
+    margin-top: 7em;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: 1.7em;
+    background: linear-gradient(to right, white, var(--tColor));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#GymMain h1 {
+    letter-spacing: 4px;
+    background: linear-gradient(to right, white, #35858B, #AEFEFF, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 34px;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em !important;
+
+}
+
+.px-2 {
+    background-color: #072227;
+}
+
+.ulbg {
+    background-image: url("../../public/assets/images/istockphoto-1042882744-170667a.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top !important;
+}
+
+.list {
+    background-color: #35858B !important;
+    color: white !important;
+}
+
+.listtext i {
+    color: #072227;
+}
+.editfont{
+    font-size: 1.5em;
+}
+.listtext {
+    line-height: 2.3em;
+}
+
+.column {
+    margin-top: 5.5em;
+    height: 15em;
+}
+
+#gymtitle {
+    font-size: 2.3em !important;
+    color: white !important;
+    padding-bottom: 1.3em;
+}
+
+#quotegym2{
+    font-size:x-large;
+}
+
+#btn2 {
+    background-color: #35858B;
+    width: 20%;
+    margin: 0 auto;
+}
+
+btn2:hover {
+    background-color: #AEFEFF;
+    color: #072227;
+}
+
+#GymMain h1{
+    letter-spacing: 4px;
+    background: linear-gradient(to right , var(--foColor), white,var(--tColor) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-size: 34px;
+}

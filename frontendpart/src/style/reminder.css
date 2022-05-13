@@ -1,0 +1,101 @@
+#bodyy{
+    background-color: #f9f9fa;
+}
+.App_reminder {
+    width: 65%;
+    border-radius: 17px;
+    padding: 10px;
+    background: var(--fColor);
+    margin: 27px auto;
+    box-shadow: 1px 2px 5px #4FBDBA;
+    padding-bottom: 20px;
+}
+
+.App_reminder img {
+    width: 27%;
+    display: block;
+    margin: auto;
+}
+
+#closeIcon ,#endIcon {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    right: 1%;
+    
+    color: #dc3545;
+    font-size: 2em;
+    font-weight: 700;
+    cursor: pointer;
+    width: fit-content;
+}
+#plusIcon{
+    color: var(--tColor);
+    font-size: x-large;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.reminder-title {
+    font-weight: bold;
+    color: var(--tColor);
+    font-size: 2.3em;
+    text-align: center;
+}
+.reminder-title > small{
+    color:white;
+}
+.reminder-title::first-letter{
+    font-size: 150%
+}
+input, button {
+    margin: 10px 0;
+}
+
+.list-group-item {
+    margin: 5px 0;
+    position: relative;
+}
+
+.clearReminder {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#rem{
+    margin: auto;
+    width: 50vw;
+}
+#rem2{
+    margin: auto;
+    width: 50vw;
+}
+
+#btnAdd {
+    
+    color: var(--tColor);
+    width: 30%;
+    margin: 0 auto;
+    border:1px solid var(--tColor);
+}
+#btnAdd:hover{
+    background-color: var(--tColor);
+    color: white;
+}
+
+#btnRem {
+ 
+    width: 30%;
+    margin: 0 auto;
+    
+}
+
+.dateTodo{
+    font-size: 12px;
+    color: var(--sColor);
+    padding: 5px 0px;
+}
+.dateTodo > i{
+
+   padding: 0px 5px;
+}
